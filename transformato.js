@@ -7,11 +7,11 @@ const fq = new Filequeue(1000) // Maximo de numero de archivos abiertos a la vez
 
 // const carpeta= 'Archivos\\'
 // const nuevaCarpeta= 'ArchivosNEW\\'
-const carpeta = 'C:\\Users\\lapena\\Documents\\Luis Angel\\Intelisis\\SQL3100\\'
-const nuevaCarpeta = 'C:\\Users\\lapena\\Documents\\Luis Angel\\Intelisis\\NuevoSQL3100\\'
+const carpeta = 'C:\\cadiaz\\mavi\\comercializadora\\SQL\\Comer5000\\'
+const nuevaCarpeta = 'C:\\cadiaz\\mavi\\comercializadora\\SQL\\Comer5000B\\'
 
 let contador = 0
-const recodificacion        = 'Latin1'
+const recodificacion        = 'utf8'
 
 const jsonRegEx = {
   'clsComentarioVacio':       /\/\*+\*+\//g,
